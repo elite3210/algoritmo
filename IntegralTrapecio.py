@@ -15,6 +15,7 @@ def diff2(x):
 
 
 def intervalos(x_min, x_max, e):
+    # calcula la cantidad de trapecios dado el error para el metodo de trapecio
     a = x_min
     b = x_max
     c = (x_max-x_min)/2
